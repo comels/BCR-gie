@@ -15,7 +15,7 @@ export function About() {
           </h2>
 
           {/* Description de l'équipe */}
-          <p className="mt-6 text-lg tracking-tight text-white">
+          <p className="mt-6 text-justify text-lg tracking-tight text-white">
             BC Régie est une équipe passionnée et spécialisée dans la logistique
             et la gestion d&apos;événements. Fondée par Côme et Basile, forts
             d’une solide expérience dans la restauration et l&apos;événementiel,
