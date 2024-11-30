@@ -19,7 +19,7 @@ export function Contact() {
     <section id="contact" className="bg-kaki-100 px-10 py-28">
       <Container>
         {/* Titre et description */}
-        <div className="mx-auto max-w-7xl px-6 lg:px-8">
+        <div className="mx-auto max-w-7xl">
           <div className="mx-auto max-w-2xl lg:mx-0">
             <h2 className="font-display text-5xl font-medium tracking-tight text-white sm:text-7xl">
               Contact

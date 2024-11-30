@@ -7,10 +7,13 @@ import {
   PopoverPanel,
 } from '@headlessui/react'
 import clsx from 'clsx'
+import Image from 'next/image'
 import Link from 'next/link'
 
 import { Container } from '@/components/Container'
 import { NavLink } from '@/components/NavLink'
+
+import logo from '@/app/favicon.ico'
 
 // Composant pour les liens dans le menu mobile
 function MobileNavLink({ href, children }) {
@@ -104,9 +107,18 @@ export function Header() {
         <nav className="relative z-50 flex justify-between">
           {/* Logo et navigation principale */}
           <div className="flex items-center md:gap-x-12">
-            <Link className="text-xl font-bold" href="#" aria-label="Home">
-              BC Régie
-            </Link>
+            <div className="flex items-center gap-1">
+              <Image
+                src={logo}
+                alt="logo"
+                width={20}
+                height={20}
+                className="h-5 w-auto"
+              />
+              <Link className="text-xl font-bold" href="#" aria-label="Home">
+                BC Régie
+              </Link>
+            </div>
             <div className="hidden font-light md:flex md:gap-x-6">
               {links.map((link, index) => (
                 <NavLink key={index} href={link.href}>
