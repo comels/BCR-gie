@@ -13,8 +13,6 @@ import Link from 'next/link'
 import { Container } from '@/components/Container'
 import { NavLink } from '@/components/NavLink'
 
-import logo from '@/app/favicon.ico'
-
 // Composant pour les liens dans le menu mobile
 function MobileNavLink({ href, children }) {
   return (
@@ -107,13 +105,13 @@ export function Header() {
         <nav className="relative z-50 flex justify-between">
           {/* Logo et navigation principale */}
           <div className="flex items-center md:gap-x-12">
-            <div className="flex items-center gap-1">
+            <div className="flex items-center gap-2">
               <Image
-                src={logo}
+                src="/logo.png"
                 alt="logo"
                 width={20}
                 height={20}
-                className="h-5 w-auto"
+                className="h-4 w-auto"
               />
               <Link className="text-xl font-bold" href="#" aria-label="Home">
                 BC Régie

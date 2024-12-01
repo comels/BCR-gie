@@ -1,20 +1,13 @@
 import Image from 'next/image'
 
-import logoAigle from '@/images/logos/aigle.png'
-import logocourreges from '@/images/logos/courreges.png'
-import logoKitsune from '@/images/logos/kitsune.png'
-import logoLesEchos from '@/images/logos/lesechos.png'
-import logoMonoprix from '@/images/logos/monoprix.png'
-import logoShu from '@/images/logos/shu.png'
-
 export default function Prod() {
   const logos = [
-    { alt: 'Aigle', src: logoAigle },
-    { alt: 'Courrèges', src: logocourreges },
-    { alt: 'Kitsuné', src: logoKitsune },
-    { alt: 'Les Échos', src: logoLesEchos },
-    { alt: 'Monoprix', src: logoMonoprix },
-    { alt: 'Shu Uemura', src: logoShu },
+    { src: '/logos/aigle.png', alt: 'Logo Aigle' },
+    { src: '/logos/courreges.png', alt: 'Logo Courreges' },
+    { src: '/logos/kitsune.png', alt: 'Logo Kitsune' },
+    { src: '/logos/lesechos.png', alt: 'Logo Les Echos' },
+    { src: '/logos/monoprix.png', alt: 'Logo Monoprix' },
+    { src: '/logos/shu.png', alt: 'Logo Shu' },
   ]
 
   return (
