@@ -1,11 +1,11 @@
 export default function Prod() {
   const logos = [
-    { src: '/logos/aigle.png', alt: 'Logo Aigle' },
-    { src: '/logos/courreges.png', alt: 'Logo Courreges' },
-    { src: '/logos/kitsune.png', alt: 'Logo Kitsune' },
-    { src: '/logos/lesechos.png', alt: 'Logo Les Echos' },
-    { src: '/logos/monoprix.png', alt: 'Logo Monoprix' },
-    { src: '/logos/shu.png', alt: 'Logo Shu' },
+    { src: 'logos/aigle.png', alt: 'Logo Aigle' },
+    { src: 'logos/courreges.png', alt: 'Logo Courreges' },
+    { src: 'logos/kitsune.png', alt: 'Logo Kitsune' },
+    { src: 'logos/lesechos.png', alt: 'Logo Les Echos' },
+    { src: 'logos/monoprix.png', alt: 'Logo Monoprix' },
+    { src: 'logos/shu.png', alt: 'Logo Shu' },
   ]
 
   return (
