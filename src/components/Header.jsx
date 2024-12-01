@@ -7,7 +7,6 @@ import {
   PopoverPanel,
 } from '@headlessui/react'
 import clsx from 'clsx'
-import Image from 'next/image'
 import Link from 'next/link'
 
 import { Container } from '@/components/Container'
@@ -106,12 +105,11 @@ export function Header() {
           {/* Logo et navigation principale */}
           <div className="flex items-center md:gap-x-12">
             <div className="flex items-center gap-2">
-              <Image
+              <img
                 src="logo.png"
                 alt="logo"
-                width={20}
-                height={20}
                 className="h-4 w-auto"
+                loading="lazy"
               />
               <Link className="text-xl font-bold" href="#" aria-label="Home">
                 BC Régie

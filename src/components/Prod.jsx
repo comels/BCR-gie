@@ -22,6 +22,7 @@ export default function Prod() {
                 alt={logo.alt}
                 src={logo.src}
                 className="max-h-7 w-full object-contain"
+                loading="lazy"
               />
             </div>
           ))}
