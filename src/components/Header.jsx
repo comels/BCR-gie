@@ -107,7 +107,7 @@ export function Header() {
           <div className="flex items-center md:gap-x-12">
             <div className="flex items-center gap-2">
               <Image
-                src="/logo.png"
+                src="logo.png"
                 alt="logo"
                 width={20}
                 height={20}
