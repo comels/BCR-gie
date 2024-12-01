@@ -4,7 +4,7 @@ export function About() {
   return (
     <section
       id="about"
-      className="flex items-center bg-kaki-100 px-10 py-28 lg:h-screen"
+      className="flex items-center bg-kaki-100 px-10 py-28 lg:min-h-screen"
     >
       <Container>
         {/* Section principale avec le titre et la description */}
@@ -27,6 +27,31 @@ export function About() {
             expertise et notre approche conviviale pour mener à bien vos projets
             !
           </p>
+        </div>
+
+        <div className="mx-auto mt-20 grid grid-cols-1 place-items-center gap-x-14 gap-y-14 sm:grid-cols-2">
+          {/* Première personne */}
+          <div>
+            <img
+              alt=""
+              src="basile.jpg"
+              className="aspect-[4/5] max-h-96 rounded-2xl object-cover"
+            />
+            <h3 className="mt-6 text-lg/8 font-semibold tracking-tight text-white">
+              Basile LE SAUTER
+            </h3>
+          </div>
+          {/* Deuxième personne */}
+          <div>
+            <img
+              alt=""
+              src="come.jpg"
+              className="aspect-[4/5] max-h-96 rounded-2xl object-cover"
+            />
+            <h3 className="mt-6 text-lg/8 font-semibold tracking-tight text-white">
+              Côme LE SAUTER
+            </h3>
+          </div>
         </div>
       </Container>
     </section>
