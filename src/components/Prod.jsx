@@ -13,13 +13,13 @@ export default function Prod() {
   return (
     <div className="bg-white py-16">
       <div className="max-w-9xl mx-auto">
-        <p className="mb-10 px-6 text-center font-display text-5xl font-medium tracking-tight text-slate-900 sm:px-10 sm:text-7xl">
+        <p className="mb-10 font-display text-5xl font-medium tracking-tight text-slate-900 sm:text-7xl md:text-center">
           Nos clients
         </p>
 
-        <div className="grid grid-cols-2 gap-0.5 overflow-hidden sm:rounded-2xl xl:grid-cols-6">
+        <div className="grid grid-cols-2 gap-12 overflow-hidden sm:rounded-2xl xl:grid-cols-6">
           {logos.map((logo, index) => (
-            <div key={index} className="p-6 sm:p-10">
+            <div key={index} className="">
               <Image
                 alt={logo.alt}
                 src={logo.src}

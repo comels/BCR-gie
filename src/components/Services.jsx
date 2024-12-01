@@ -52,7 +52,7 @@ export function Services() {
     <section id="services" className="px-10 py-10 lg:py-28">
       <Container>
         {/* Titre principal */}
-        <div className="max-w-3xl md:mx-auto md:text-center">
+        <div className="md:mx-auto md:text-center">
           <h2 className="font-display text-5xl font-medium tracking-tight text-slate-900 sm:text-7xl">
             Nos services
           </h2>
